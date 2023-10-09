@@ -15,7 +15,7 @@ fun main() {
     val array  = arrayOf("1","2","3","4","5","6")
     val evenSum = sumOfEvenfrom(array)
     println("total sum of even = $evenSum")
-}```
+}
 
 
 // function to find the sum of two number
@@ -36,3 +36,5 @@ fun sumOfEvenfrom(stringArray:Array<String>) : Int {
     val sum = evenArray.reduce{acc, element -> acc + element}
     return sum
 }
+```
+
